@@ -1,0 +1,160 @@
+
+@media(max-width: 1400px){
+
+
+    /* HEADER CONTENT */
+
+    .header-holder{
+       grid-template-columns: 1fr;
+       grid-template-rows: 5fr;
+       gap: 50px;
+       align-items: center;
+       justify-items: center;
+       font-size: clamp(1rem, 2.5vw, 2rem); 
+     }
+
+     .header-right-btn{
+        display: none !important;
+    }
+
+    
+    .main-container{
+        max-width: 100px;
+    }
+
+
+    /* ITEM-CONTENT */
+
+
+    .info-item{
+        grid-template-columns: 1fr;
+        justify-items: center;  
+        align-items: center;
+        margin-left: 90px;
+        gap: 100px;
+
+    }
+
+    /* BLOCK_ABOUT-DOWNLOAD-APP */
+
+
+    
+    .app-info-content{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 200px;
+    }
+
+    .app-info-left-content{
+        display: flex;
+        background-color: #fff;
+        position: relative;
+        border-radius: 50px;
+        justify-items: center;
+        margin-left: 10px;
+        font-size: clamp(1rem, 2.5vw, 2rem); 
+    }
+
+     /* BLOCK_ABOUT-DOWNLOAD-APP2 */
+
+     .app-info-content2{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        margin-top: 250px;
+        gap: 200px;
+    }
+
+    .app-info-right-content2{
+        background-color: #fff;
+    }
+
+    /* DOWNLOAD APP CONTENT */
+
+
+    .buttons{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+
+    
+}
+
+
+
+
+@media(max-width: 500px){
+
+
+    /* HEADER CONTENT */
+
+    .header-holder{
+       grid-template-columns: 1fr;
+       grid-template-rows: 5fr;
+       gap: 50px;
+       align-items: center;
+       justify-items: center;
+       font-size: clamp(1rem, 2.5vw, 2rem); 
+     }
+
+     .header-right-btn{
+        display: none !important;
+    }
+
+    
+    .main-container{
+        max-width: 100px;
+    }
+
+
+    /* ITEM-CONTENT */
+
+    .info-item{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        margin-left: 200px;
+        gap: 100px;
+    }
+
+
+    /* DOWNLOAD APP CONTENT */
+    
+    .buttons{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .container-download-app{
+        width: 100%;
+    }
+
+    .download-for-partners-btn{
+        width: 300px;
+    }
+
+    
+/* FOOTER */
+
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    margin-left: 300px; 
+  }
+
+    
+ 
+
+    
+    
+}

@@ -1,0 +1,357 @@
+:root {
+    --color-dark-gray: #747474;
+    --color-dark-blue: #2D76F9;
+    --color-white-gray: #EEF4FF;
+}
+
+
+.main-container{
+    margin: 0px auto;
+    max-width: 2000px;
+    min-width: 100%;
+}
+
+
+/* HEADER CONTENT */
+
+.logo {
+    display: flex;
+}
+
+.header-holder{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-sizing: border-box;
+    
+}
+
+.content-logo {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 16px;
+    padding-top: 5px;
+}
+
+.header-content-text{
+    margin-top: 125px;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 85px;
+}
+
+.header-suptitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 40px;
+    color: var(--color-dark-gray);
+}
+
+.header-button {
+    margin-top: 80px;
+}
+
+.header-btn {
+    background-color: var(--color-dark-blue);
+    padding: 24px 89px;
+    border: 1px solid;
+    border-radius: 1500px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: var(--color-dark-blue);
+}
+
+
+.app-image {
+    position: relative;
+}
+
+
+.header-right-btn {
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    background-color: transparent;
+    padding: 11px 21px;
+    text-align: center;
+    border: 1px solid,  var(--color-dark-blue);
+    border-radius: 50px;
+    color:  var(--color-dark-blue);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-left: 400px;
+    transition: color 0.5s linear;
+    transition: background-color 0.5s linear;
+}
+
+.header-right-btn:hover {
+    background-color: var(--color-dark-blue);
+    color: #fff;
+}
+
+
+/* MENU-ITEM CONTENT */
+
+
+
+.info-item{
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+
+.item{
+    text-align: center;
+}
+
+.icon-holder {
+    display: inline-block; 
+}
+
+.items-holder{
+    
+    
+}
+
+.search-icon {
+    background-color: #EEF4FF;   
+    border-radius: 60px;
+    padding: 40px;  
+}
+
+.title-item {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.item-subtitle {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--color-dark-gray);
+}
+
+
+/* BLOCK_ABOUT-DOWNLOAD-APP */
+
+
+.app-info-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 250px;
+    align-items: center;
+
+}
+
+.app-info-left-content{
+    display: flex;
+    justify-content: start;
+    background-color: #EEF4FF;
+    position: relative;
+    border-radius: 50px;
+    width: 702px;
+}
+
+.image-holder{
+    width: 300px;
+}
+
+.app-title-right-content{
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 65px;
+    margin-bottom: 50px;
+}
+
+.app-subtitle-right-content{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--color-dark-gray);
+}
+
+.payment-img{
+  position: absolute;
+}
+
+.map-img{
+    position: absolute;
+    left: 37px;
+    top: 336px;
+}
+
+
+/* BLOCK_ABOUT-DOWNLOAD-APP2 */
+
+
+.app-info-content2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 250px;
+}
+
+.app-title-left-content2{
+    font-weight: 600;
+    font-size: 66px;
+    margin-bottom: 50px;
+    line-height: 65px;
+}
+
+.app-subtitle-left-content2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--color-dark-gray);
+}
+
+.app-info-right-content2{
+
+    background-color: #EEF4FF;
+    position: relative;
+    border-radius: 50px;
+    position: relative;
+}
+
+.image-holder2{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.notification-img{
+    border-radius: 50px;
+}
+
+/* DOWNLOAD APP CONTENT */
+
+.container-download-app{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    margin-top: 250px;
+    background-color: var(--color-dark-blue);
+    justify-items: center;
+    padding: 100px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+.title-download-app{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.download-for-partners-btn{
+
+    padding: 24px 59px;
+    border: 1px solid;
+    border-radius: 1500px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    transition: background-color 0.3s linear;  
+    text-align: center;
+}
+
+.download-btn{
+    text-align: center;
+    background-color: #fff;
+    padding: 24px 89px;
+    border: 1px solid;
+    border-radius: 1500px;
+    color: var(--color-dark-blue);
+    text-decoration: none;
+    transition: color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+/* FOOTER */
+
+
+.footer{
+    margin-top: 250px;
+    padding-bottom: 150px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.footer-logo-content-and-text{
+    display: flex;
+}
+
+.footer-follow-us-content span{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer-text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 26px;
+}
+
+.footer-slogan{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.footer-logo-text{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--color-dark-gray);
+}
+
+.icons{
+    padding-right: 45px;
+}
+
+.follow-us-icons{
+    display: flex;
+    margin-top: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
